@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Mkx-g0-5nU">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Pinterest View Controller-->
+        <scene sceneID="5Yy-RO-ziC">
+            <objects>
+                <collectionViewController id="Mkx-g0-5nU" customClass="PinterestViewController" customModule="CRMDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="QtB-5y-4po">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <collectionViewLayout key="collectionViewLayout" id="qzV-Iz-EAn" customClass="PinterestLayout" customModule="CRMDemo" customModuleProvider="target"/>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PinterestCell" id="Unr-RT-DsY" customClass="PinterestViewCell" customModule="CRMDemo" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="3NF-fD-Cxu" userLabel="Container View">
+                                            <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CaS-nC-mOS">
+                                                    <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstItem="CaS-nC-mOS" firstAttribute="top" secondItem="3NF-fD-Cxu" secondAttribute="top" id="QyY-D3-dOG"/>
+                                                <constraint firstAttribute="trailing" secondItem="CaS-nC-mOS" secondAttribute="trailing" id="UB2-Nc-Taf"/>
+                                                <constraint firstItem="CaS-nC-mOS" firstAttribute="leading" secondItem="3NF-fD-Cxu" secondAttribute="leading" id="Xc7-KW-Csp"/>
+                                                <constraint firstAttribute="bottom" secondItem="CaS-nC-mOS" secondAttribute="bottom" id="jdV-VX-bza"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="5"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="3NF-fD-Cxu" secondAttribute="bottom" id="9sv-CN-3iR"/>
+                                    <constraint firstAttribute="trailing" secondItem="3NF-fD-Cxu" secondAttribute="trailing" id="EPt-Fy-MIv"/>
+                                    <constraint firstItem="3NF-fD-Cxu" firstAttribute="leading" secondItem="Unr-RT-DsY" secondAttribute="leading" id="Jnc-C1-0m7"/>
+                                    <constraint firstItem="3NF-fD-Cxu" firstAttribute="top" secondItem="Unr-RT-DsY" secondAttribute="top" id="rSc-VW-tQi"/>
+                                </constraints>
+                                <size key="customSize" width="180" height="180"/>
+                                <connections>
+                                    <outlet property="containerView" destination="3NF-fD-Cxu" id="qTb-3H-GA6"/>
+                                    <outlet property="imageFrame" destination="CaS-nC-mOS" id="5yl-e4-qFl"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="Mkx-g0-5nU" id="qzQ-me-Rca"/>
+                            <outlet property="delegate" destination="Mkx-g0-5nU" id="rtm-0b-7Bu"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Es-1I-ceS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="59" y="82"/>
+        </scene>
+    </scenes>
+</document>

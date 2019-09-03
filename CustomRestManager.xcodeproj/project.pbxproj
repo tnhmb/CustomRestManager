@@ -10,6 +10,28 @@
 		54FFABAB231A0F0600CBF60E /* CustomRestManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54FFABA1231A0F0600CBF60E /* CustomRestManager.framework */; };
 		54FFABB0231A0F0600CBF60E /* CustomRestManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FFABAF231A0F0600CBF60E /* CustomRestManagerTests.swift */; };
 		54FFABB2231A0F0600CBF60E /* CustomRestManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 54FFABA4231A0F0600CBF60E /* CustomRestManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54FFABBC231A206A00CBF60E /* CustomRestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FFABBB231A206A00CBF60E /* CustomRestManager.swift */; };
+		54FFABBF231A291100CBF60E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FFABBE231A291100CBF60E /* Response.swift */; };
+		54FFABC1231A294200CBF60E /* APIEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FFABC0231A294200CBF60E /* APIEntity.swift */; };
+		54FFABC3231A336E00CBF60E /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FFABC2231A336E00CBF60E /* Results.swift */; };
+		54FFABC5231CAD8C00CBF60E /* CTCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FFABC4231CAD8C00CBF60E /* CTCache.swift */; };
+		54FFABC7231CBD3300CBF60E /* MemoryCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FFABC6231CBD3300CBF60E /* MemoryCache.swift */; };
+		54FFABCF231CD49800CBF60E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FFABCE231CD49800CBF60E /* AppDelegate.swift */; };
+		54FFABD4231CD49800CBF60E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54FFABD2231CD49800CBF60E /* Main.storyboard */; };
+		54FFABD6231CD4A300CBF60E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54FFABD5231CD4A300CBF60E /* Assets.xcassets */; };
+		54FFABD9231CD4A300CBF60E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54FFABD7231CD4A300CBF60E /* LaunchScreen.storyboard */; };
+		54FFABE4231CD4A300CBF60E /* CRMDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FFABE3231CD4A300CBF60E /* CRMDemoTests.swift */; };
+		54FFABEF231CD4A400CBF60E /* CRMDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FFABEE231CD4A300CBF60E /* CRMDemoUITests.swift */; };
+		54FFABFC231D0E8900CBF60E /* Pins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FFABFB231D0E8900CBF60E /* Pins.swift */; };
+		54FFABFE231D0EDD00CBF60E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FFABFD231D0EDD00CBF60E /* Category.swift */; };
+		54FFAC00231D0F0100CBF60E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FFABFF231D0F0100CBF60E /* User.swift */; };
+		54FFAC02231D0F6F00CBF60E /* ImageUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FFAC01231D0F6F00CBF60E /* ImageUrls.swift */; };
+		54FFAC04231D0FA900CBF60E /* ProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FFAC03231D0FA900CBF60E /* ProfileImage.swift */; };
+		54FFAC08231E0D7500CBF60E /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FFAC07231E0D7500CBF60E /* PinterestLayout.swift */; };
+		54FFAC0B231E13D900CBF60E /* PinterestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FFAC0A231E13D900CBF60E /* PinterestViewController.swift */; };
+		54FFAC0D231E149500CBF60E /* PinterestViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FFAC0C231E149500CBF60E /* PinterestViewCell.swift */; };
+		54FFAC0F231E62C000CBF60E /* CustomRestManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54FFABA1231A0F0600CBF60E /* CustomRestManager.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		54FFAC11231E62D900CBF60E /* CustomRestManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 54FFABA1231A0F0600CBF60E /* CustomRestManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,7 +42,42 @@
 			remoteGlobalIDString = 54FFABA0231A0F0600CBF60E;
 			remoteInfo = CustomRestManager;
 		};
+		54FFABE0231CD4A300CBF60E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54FFAB98231A0F0600CBF60E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54FFABCB231CD49800CBF60E;
+			remoteInfo = CRMDemo;
+		};
+		54FFABEB231CD4A300CBF60E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54FFAB98231A0F0600CBF60E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54FFABCB231CD49800CBF60E;
+			remoteInfo = CRMDemo;
+		};
+		54FFAC12231E62D900CBF60E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54FFAB98231A0F0600CBF60E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54FFABA0231A0F0600CBF60E;
+			remoteInfo = CustomRestManager;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		54FFAC14231E62D900CBF60E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				54FFAC11231E62D900CBF60E /* CustomRestManager.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		54FFABA1231A0F0600CBF60E /* CustomRestManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomRestManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +86,32 @@
 		54FFABAA231A0F0600CBF60E /* CustomRestManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomRestManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54FFABAF231A0F0600CBF60E /* CustomRestManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRestManagerTests.swift; sourceTree = "<group>"; };
 		54FFABB1231A0F0600CBF60E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54FFABBB231A206A00CBF60E /* CustomRestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRestManager.swift; sourceTree = "<group>"; };
+		54FFABBE231A291100CBF60E /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		54FFABC0231A294200CBF60E /* APIEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEntity.swift; sourceTree = "<group>"; };
+		54FFABC2231A336E00CBF60E /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		54FFABC4231CAD8C00CBF60E /* CTCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTCache.swift; sourceTree = "<group>"; };
+		54FFABC6231CBD3300CBF60E /* MemoryCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryCache.swift; sourceTree = "<group>"; };
+		54FFABCC231CD49800CBF60E /* CRMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54FFABCE231CD49800CBF60E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54FFABD3231CD49800CBF60E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54FFABD5231CD4A300CBF60E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54FFABD8231CD4A300CBF60E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54FFABDA231CD4A300CBF60E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54FFABDF231CD4A300CBF60E /* CRMDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRMDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54FFABE3231CD4A300CBF60E /* CRMDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRMDemoTests.swift; sourceTree = "<group>"; };
+		54FFABE5231CD4A300CBF60E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54FFABEA231CD4A300CBF60E /* CRMDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRMDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54FFABEE231CD4A300CBF60E /* CRMDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRMDemoUITests.swift; sourceTree = "<group>"; };
+		54FFABF0231CD4A400CBF60E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54FFABFB231D0E8900CBF60E /* Pins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pins.swift; sourceTree = "<group>"; };
+		54FFABFD231D0EDD00CBF60E /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		54FFABFF231D0F0100CBF60E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		54FFAC01231D0F6F00CBF60E /* ImageUrls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUrls.swift; sourceTree = "<group>"; };
+		54FFAC03231D0FA900CBF60E /* ProfileImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImage.swift; sourceTree = "<group>"; };
+		54FFAC07231E0D7500CBF60E /* PinterestLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
+		54FFAC0A231E13D900CBF60E /* PinterestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestViewController.swift; sourceTree = "<group>"; };
+		54FFAC0C231E149500CBF60E /* PinterestViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +130,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		54FFABC9231CD49800CBF60E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54FFAC0F231E62C000CBF60E /* CustomRestManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54FFABDC231CD4A300CBF60E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54FFABE7231CD4A300CBF60E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,7 +160,11 @@
 			children = (
 				54FFABA3231A0F0600CBF60E /* CustomRestManager */,
 				54FFABAE231A0F0600CBF60E /* CustomRestManagerTests */,
+				54FFABCD231CD49800CBF60E /* CRMDemo */,
+				54FFABE2231CD4A300CBF60E /* CRMDemoTests */,
+				54FFABED231CD4A300CBF60E /* CRMDemoUITests */,
 				54FFABA2231A0F0600CBF60E /* Products */,
+				54FFAC0E231E62C000CBF60E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +173,9 @@
 			children = (
 				54FFABA1231A0F0600CBF60E /* CustomRestManager.framework */,
 				54FFABAA231A0F0600CBF60E /* CustomRestManagerTests.xctest */,
+				54FFABCC231CD49800CBF60E /* CRMDemo.app */,
+				54FFABDF231CD4A300CBF60E /* CRMDemoTests.xctest */,
+				54FFABEA231CD4A300CBF60E /* CRMDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,8 +183,12 @@
 		54FFABA3231A0F0600CBF60E /* CustomRestManager */ = {
 			isa = PBXGroup;
 			children = (
+				54FFABBD231A28F800CBF60E /* Structs */,
 				54FFABA4231A0F0600CBF60E /* CustomRestManager.h */,
 				54FFABA5231A0F0600CBF60E /* Info.plist */,
+				54FFABBB231A206A00CBF60E /* CustomRestManager.swift */,
+				54FFABC4231CAD8C00CBF60E /* CTCache.swift */,
+				54FFABC6231CBD3300CBF60E /* MemoryCache.swift */,
 			);
 			path = CustomRestManager;
 			sourceTree = "<group>";
@@ -84,6 +200,93 @@
 				54FFABB1231A0F0600CBF60E /* Info.plist */,
 			);
 			path = CustomRestManagerTests;
+			sourceTree = "<group>";
+		};
+		54FFABBD231A28F800CBF60E /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				54FFABBE231A291100CBF60E /* Response.swift */,
+				54FFABC0231A294200CBF60E /* APIEntity.swift */,
+				54FFABC2231A336E00CBF60E /* Results.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		54FFABCD231CD49800CBF60E /* CRMDemo */ = {
+			isa = PBXGroup;
+			children = (
+				54FFAC09231E139000CBF60E /* ViewController */,
+				54FFAC06231E0D5E00CBF60E /* Layout */,
+				54FFAC05231D0FEE00CBF60E /* Views */,
+				54FFABFA231D0CE100CBF60E /* Models */,
+				54FFABCE231CD49800CBF60E /* AppDelegate.swift */,
+				54FFABD2231CD49800CBF60E /* Main.storyboard */,
+				54FFABD5231CD4A300CBF60E /* Assets.xcassets */,
+				54FFABD7231CD4A300CBF60E /* LaunchScreen.storyboard */,
+				54FFABDA231CD4A300CBF60E /* Info.plist */,
+			);
+			path = CRMDemo;
+			sourceTree = "<group>";
+		};
+		54FFABE2231CD4A300CBF60E /* CRMDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				54FFABE3231CD4A300CBF60E /* CRMDemoTests.swift */,
+				54FFABE5231CD4A300CBF60E /* Info.plist */,
+			);
+			path = CRMDemoTests;
+			sourceTree = "<group>";
+		};
+		54FFABED231CD4A300CBF60E /* CRMDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54FFABEE231CD4A300CBF60E /* CRMDemoUITests.swift */,
+				54FFABF0231CD4A400CBF60E /* Info.plist */,
+			);
+			path = CRMDemoUITests;
+			sourceTree = "<group>";
+		};
+		54FFABFA231D0CE100CBF60E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				54FFABFB231D0E8900CBF60E /* Pins.swift */,
+				54FFABFD231D0EDD00CBF60E /* Category.swift */,
+				54FFABFF231D0F0100CBF60E /* User.swift */,
+				54FFAC01231D0F6F00CBF60E /* ImageUrls.swift */,
+				54FFAC03231D0FA900CBF60E /* ProfileImage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		54FFAC05231D0FEE00CBF60E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				54FFAC0C231E149500CBF60E /* PinterestViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		54FFAC06231E0D5E00CBF60E /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				54FFAC07231E0D7500CBF60E /* PinterestLayout.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		54FFAC09231E139000CBF60E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				54FFAC0A231E13D900CBF60E /* PinterestViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		54FFAC0E231E62C000CBF60E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +339,61 @@
 			productReference = 54FFABAA231A0F0600CBF60E /* CustomRestManagerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		54FFABCB231CD49800CBF60E /* CRMDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54FFABF1231CD4A400CBF60E /* Build configuration list for PBXNativeTarget "CRMDemo" */;
+			buildPhases = (
+				54FFABC8231CD49800CBF60E /* Sources */,
+				54FFABC9231CD49800CBF60E /* Frameworks */,
+				54FFABCA231CD49800CBF60E /* Resources */,
+				54FFAC14231E62D900CBF60E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54FFAC13231E62D900CBF60E /* PBXTargetDependency */,
+			);
+			name = CRMDemo;
+			productName = CRMDemo;
+			productReference = 54FFABCC231CD49800CBF60E /* CRMDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54FFABDE231CD4A300CBF60E /* CRMDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54FFABF4231CD4A400CBF60E /* Build configuration list for PBXNativeTarget "CRMDemoTests" */;
+			buildPhases = (
+				54FFABDB231CD4A300CBF60E /* Sources */,
+				54FFABDC231CD4A300CBF60E /* Frameworks */,
+				54FFABDD231CD4A300CBF60E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54FFABE1231CD4A300CBF60E /* PBXTargetDependency */,
+			);
+			name = CRMDemoTests;
+			productName = CRMDemoTests;
+			productReference = 54FFABDF231CD4A300CBF60E /* CRMDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54FFABE9231CD4A300CBF60E /* CRMDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54FFABF7231CD4A400CBF60E /* Build configuration list for PBXNativeTarget "CRMDemoUITests" */;
+			buildPhases = (
+				54FFABE6231CD4A300CBF60E /* Sources */,
+				54FFABE7231CD4A300CBF60E /* Frameworks */,
+				54FFABE8231CD4A300CBF60E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54FFABEC231CD4A300CBF60E /* PBXTargetDependency */,
+			);
+			name = CRMDemoUITests;
+			productName = CRMDemoUITests;
+			productReference = 54FFABEA231CD4A300CBF60E /* CRMDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,9 +406,21 @@
 				TargetAttributes = {
 					54FFABA0231A0F0600CBF60E = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					54FFABA9231A0F0600CBF60E = {
 						CreatedOnToolsVersion = 10.2.1;
+					};
+					54FFABCB231CD49800CBF60E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					54FFABDE231CD4A300CBF60E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 54FFABCB231CD49800CBF60E;
+					};
+					54FFABE9231CD4A300CBF60E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 54FFABCB231CD49800CBF60E;
 					};
 				};
 			};
@@ -160,6 +430,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 54FFAB97231A0F0600CBF60E;
 			productRefGroup = 54FFABA2231A0F0600CBF60E /* Products */;
@@ -168,6 +439,9 @@
 			targets = (
 				54FFABA0231A0F0600CBF60E /* CustomRestManager */,
 				54FFABA9231A0F0600CBF60E /* CustomRestManagerTests */,
+				54FFABCB231CD49800CBF60E /* CRMDemo */,
+				54FFABDE231CD4A300CBF60E /* CRMDemoTests */,
+				54FFABE9231CD4A300CBF60E /* CRMDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +461,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		54FFABCA231CD49800CBF60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54FFABD9231CD4A300CBF60E /* LaunchScreen.storyboard in Resources */,
+				54FFABD6231CD4A300CBF60E /* Assets.xcassets in Resources */,
+				54FFABD4231CD49800CBF60E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54FFABDD231CD4A300CBF60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54FFABE8231CD4A300CBF60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -194,6 +492,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54FFABC1231A294200CBF60E /* APIEntity.swift in Sources */,
+				54FFABBF231A291100CBF60E /* Response.swift in Sources */,
+				54FFABC3231A336E00CBF60E /* Results.swift in Sources */,
+				54FFABC7231CBD3300CBF60E /* MemoryCache.swift in Sources */,
+				54FFABC5231CAD8C00CBF60E /* CTCache.swift in Sources */,
+				54FFABBC231A206A00CBF60E /* CustomRestManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +509,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		54FFABC8231CD49800CBF60E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54FFAC0B231E13D900CBF60E /* PinterestViewController.swift in Sources */,
+				54FFABFC231D0E8900CBF60E /* Pins.swift in Sources */,
+				54FFAC02231D0F6F00CBF60E /* ImageUrls.swift in Sources */,
+				54FFAC04231D0FA900CBF60E /* ProfileImage.swift in Sources */,
+				54FFAC0D231E149500CBF60E /* PinterestViewCell.swift in Sources */,
+				54FFAC08231E0D7500CBF60E /* PinterestLayout.swift in Sources */,
+				54FFABCF231CD49800CBF60E /* AppDelegate.swift in Sources */,
+				54FFAC00231D0F0100CBF60E /* User.swift in Sources */,
+				54FFABFE231D0EDD00CBF60E /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54FFABDB231CD4A300CBF60E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54FFABE4231CD4A300CBF60E /* CRMDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54FFABE6231CD4A300CBF60E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54FFABEF231CD4A400CBF60E /* CRMDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -213,7 +549,41 @@
 			target = 54FFABA0231A0F0600CBF60E /* CustomRestManager */;
 			targetProxy = 54FFABAC231A0F0600CBF60E /* PBXContainerItemProxy */;
 		};
+		54FFABE1231CD4A300CBF60E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54FFABCB231CD49800CBF60E /* CRMDemo */;
+			targetProxy = 54FFABE0231CD4A300CBF60E /* PBXContainerItemProxy */;
+		};
+		54FFABEC231CD4A300CBF60E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54FFABCB231CD49800CBF60E /* CRMDemo */;
+			targetProxy = 54FFABEB231CD4A300CBF60E /* PBXContainerItemProxy */;
+		};
+		54FFAC13231E62D900CBF60E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54FFABA0231A0F0600CBF60E /* CustomRestManager */;
+			targetProxy = 54FFAC12231E62D900CBF60E /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54FFABD2231CD49800CBF60E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54FFABD3231CD49800CBF60E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54FFABD7231CD4A300CBF60E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54FFABD8231CD4A300CBF60E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		54FFABB3231A0F0600CBF60E /* Debug */ = {
@@ -341,6 +711,7 @@
 		54FFABB6231A0F0600CBF60E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -350,6 +721,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CustomRestManager/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +730,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Tariq.CustomRestManager;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,6 +739,7 @@
 		54FFABB7231A0F0600CBF60E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -375,6 +749,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CustomRestManager/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -391,6 +766,7 @@
 		54FFABB9231A0F0600CBF60E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R5K63HJ8RQ;
 				INFOPLIST_FILE = CustomRestManagerTests/Info.plist;
@@ -409,6 +785,7 @@
 		54FFABBA231A0F0600CBF60E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R5K63HJ8RQ;
 				INFOPLIST_FILE = CustomRestManagerTests/Info.plist;
@@ -421,6 +798,126 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54FFABF2231CD4A400CBF60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5K63HJ8RQ;
+				INFOPLIST_FILE = CRMDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tariq.CRMDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54FFABF3231CD4A400CBF60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5K63HJ8RQ;
+				INFOPLIST_FILE = CRMDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tariq.CRMDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54FFABF5231CD4A400CBF60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5K63HJ8RQ;
+				INFOPLIST_FILE = CRMDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tariq.CRMDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRMDemo.app/CRMDemo";
+			};
+			name = Debug;
+		};
+		54FFABF6231CD4A400CBF60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5K63HJ8RQ;
+				INFOPLIST_FILE = CRMDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tariq.CRMDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRMDemo.app/CRMDemo";
+			};
+			name = Release;
+		};
+		54FFABF8231CD4A400CBF60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5K63HJ8RQ;
+				INFOPLIST_FILE = CRMDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tariq.CRMDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CRMDemo;
+			};
+			name = Debug;
+		};
+		54FFABF9231CD4A400CBF60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5K63HJ8RQ;
+				INFOPLIST_FILE = CRMDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tariq.CRMDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CRMDemo;
 			};
 			name = Release;
 		};
@@ -450,6 +947,33 @@
 			buildConfigurations = (
 				54FFABB9231A0F0600CBF60E /* Debug */,
 				54FFABBA231A0F0600CBF60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54FFABF1231CD4A400CBF60E /* Build configuration list for PBXNativeTarget "CRMDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54FFABF2231CD4A400CBF60E /* Debug */,
+				54FFABF3231CD4A400CBF60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54FFABF4231CD4A400CBF60E /* Build configuration list for PBXNativeTarget "CRMDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54FFABF5231CD4A400CBF60E /* Debug */,
+				54FFABF6231CD4A400CBF60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54FFABF7231CD4A400CBF60E /* Build configuration list for PBXNativeTarget "CRMDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54FFABF8231CD4A400CBF60E /* Debug */,
+				54FFABF9231CD4A400CBF60E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
