@@ -1,11 +1,7 @@
 
-<snippet>
-  <content><![CDATA[
-# ${1:Project Name}
+# CustomRestManager
 Testing Framework
 
 ## License
  MIT License
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
+
