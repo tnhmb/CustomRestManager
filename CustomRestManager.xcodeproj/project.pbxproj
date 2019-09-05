@@ -23,8 +23,6 @@
 		54FFABE4231CD4A300CBF60E /* CRMDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FFABE3231CD4A300CBF60E /* CRMDemoTests.swift */; };
 		54FFABEF231CD4A400CBF60E /* CRMDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FFABEE231CD4A300CBF60E /* CRMDemoUITests.swift */; };
 		54FFABFC231D0E8900CBF60E /* Pins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FFABFB231D0E8900CBF60E /* Pins.swift */; };
-		54FFABFE231D0EDD00CBF60E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FFABFD231D0EDD00CBF60E /* Category.swift */; };
-		54FFAC00231D0F0100CBF60E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FFABFF231D0F0100CBF60E /* User.swift */; };
 		54FFAC02231D0F6F00CBF60E /* ImageUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FFAC01231D0F6F00CBF60E /* ImageUrls.swift */; };
 		54FFAC04231D0FA900CBF60E /* ProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FFAC03231D0FA900CBF60E /* ProfileImage.swift */; };
 		54FFAC08231E0D7500CBF60E /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FFAC07231E0D7500CBF60E /* PinterestLayout.swift */; };
@@ -105,8 +103,6 @@
 		54FFABEE231CD4A300CBF60E /* CRMDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRMDemoUITests.swift; sourceTree = "<group>"; };
 		54FFABF0231CD4A400CBF60E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54FFABFB231D0E8900CBF60E /* Pins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pins.swift; sourceTree = "<group>"; };
-		54FFABFD231D0EDD00CBF60E /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
-		54FFABFF231D0F0100CBF60E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		54FFAC01231D0F6F00CBF60E /* ImageUrls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUrls.swift; sourceTree = "<group>"; };
 		54FFAC03231D0FA900CBF60E /* ProfileImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImage.swift; sourceTree = "<group>"; };
 		54FFAC07231E0D7500CBF60E /* PinterestLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
@@ -250,8 +246,6 @@
 			isa = PBXGroup;
 			children = (
 				54FFABFB231D0E8900CBF60E /* Pins.swift */,
-				54FFABFD231D0EDD00CBF60E /* Category.swift */,
-				54FFABFF231D0F0100CBF60E /* User.swift */,
 				54FFAC01231D0F6F00CBF60E /* ImageUrls.swift */,
 				54FFAC03231D0FA900CBF60E /* ProfileImage.swift */,
 			);
@@ -520,8 +514,6 @@
 				54FFAC0D231E149500CBF60E /* PinterestViewCell.swift in Sources */,
 				54FFAC08231E0D7500CBF60E /* PinterestLayout.swift in Sources */,
 				54FFABCF231CD49800CBF60E /* AppDelegate.swift in Sources */,
-				54FFAC00231D0F0100CBF60E /* User.swift in Sources */,
-				54FFABFE231D0EDD00CBF60E /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

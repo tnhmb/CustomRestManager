@@ -45,6 +45,7 @@ class PinterestViewCell: UICollectionViewCell {
         containerView.layer.masksToBounds = true
     }
     override func prepareForReuse() {
-        //imageFrame.image = UIImage()
+        super.prepareForReuse()
+        imageFrame.image = UIImage()
     }
 }
