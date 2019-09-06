@@ -12,7 +12,7 @@ import CustomRestManager
 class PinterestViewCell: UICollectionViewCell {
     @IBOutlet weak var imageFrame: UIImageView!
     @IBOutlet weak var containerView: UIView!
-    
+    var service = Service.shared
     var pin: Pins? {
         didSet {
             updateCell()
@@ -22,20 +22,11 @@ class PinterestViewCell: UICollectionViewCell {
     func updateCell() {
         
         if let pin = pin {
-            if let cachedImg = self.apiCaller.ctCache.memoryCache.getCachedObjForKey(cacheKey: NSString(string: pin.imageUrls!.regular)) {
-                imageFrame.image = UIImage(data: cachedImg)
-            } else {
-                apiCaller.makeRequest(toURL: URL(string: pin.imageUrls!.regular)!, withHttpMethod: CustomRestManager.HttpsMethods.get) { [weak self] (result) in
-                    DispatchQueue.main.async {
-                        if result.response?.httpStatusCode == 200 {
-                            if let data = result.data {
-                                self?.imageFrame.image = UIImage(data: data)
-                            } else {
-                                print("Error fetching images", result.error!)
-                            }
-                        }
-                    }
-                }
+            guard let imageURL = pin.imageUrls?.regular,
+            let stringToURL = URL(string: imageURL)
+            else { return }
+            service.downloadImages(toURL: stringToURL) { (image) in
+                self.imageFrame.image = image
             }
         }
     }
@@ -46,6 +37,5 @@ class PinterestViewCell: UICollectionViewCell {
     }
     override func prepareForReuse() {
         super.prepareForReuse()
-        imageFrame.image = UIImage()
     }
 }

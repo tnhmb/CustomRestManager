@@ -30,6 +30,7 @@
 		54FFAC0D231E149500CBF60E /* PinterestViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FFAC0C231E149500CBF60E /* PinterestViewCell.swift */; };
 		54FFAC0F231E62C000CBF60E /* CustomRestManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54FFABA1231A0F0600CBF60E /* CustomRestManager.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		54FFAC11231E62D900CBF60E /* CustomRestManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 54FFABA1231A0F0600CBF60E /* CustomRestManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		54FFAC182322514900CBF60E /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FFAC172322514900CBF60E /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +109,7 @@
 		54FFAC07231E0D7500CBF60E /* PinterestLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
 		54FFAC0A231E13D900CBF60E /* PinterestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestViewController.swift; sourceTree = "<group>"; };
 		54FFAC0C231E149500CBF60E /* PinterestViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestViewCell.swift; sourceTree = "<group>"; };
+		54FFAC172322514900CBF60E /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +222,7 @@
 				54FFABD5231CD4A300CBF60E /* Assets.xcassets */,
 				54FFABD7231CD4A300CBF60E /* LaunchScreen.storyboard */,
 				54FFABDA231CD4A300CBF60E /* Info.plist */,
+				54FFAC172322514900CBF60E /* Service.swift */,
 			);
 			path = CRMDemo;
 			sourceTree = "<group>";
@@ -508,6 +511,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54FFAC0B231E13D900CBF60E /* PinterestViewController.swift in Sources */,
+				54FFAC182322514900CBF60E /* Service.swift in Sources */,
 				54FFABFC231D0E8900CBF60E /* Pins.swift in Sources */,
 				54FFAC02231D0F6F00CBF60E /* ImageUrls.swift in Sources */,
 				54FFAC04231D0FA900CBF60E /* ProfileImage.swift in Sources */,
